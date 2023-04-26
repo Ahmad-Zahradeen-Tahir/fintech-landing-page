@@ -1,0 +1,33 @@
+.header-body{
+    padding: 3rem;
+}
+
+.header-title{
+    width: 55%;
+}
+
+.header-title p{
+    color: green;
+    font-weight: bold;
+}
+
+.header-foot{
+    margin-top: 6rem;
+}
+
+.header{
+    background-image: url(../../assets/hbkg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+@media screen and ( max-width: 600px ){
+    .header-body{
+        padding: 0;
+    }
+
+    .header-title{
+        width: 100%;
+    }
+}
